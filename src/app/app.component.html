@@ -1,0 +1,8 @@
+<div class="container-fluid">
+<app-topbar [inputSideNav]="sideNav"></app-topbar>
+  <mat-sidenav-container>
+      <mat-sidenav #sideNav mode="side" opened class="background"><app-sidenav>
+      </app-sidenav></mat-sidenav>
+      <mat-sidenav-content class="background"><router-outlet></router-outlet></mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

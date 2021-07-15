@@ -1,0 +1,47 @@
+/* Structure */
+table {
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+.inputfilter {
+    margin-left: 20px;
+    width: 65%;
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+
+.inputfilter:focus-visible {
+    color: #ffffff;
+    border: none;
+}
+
+.accionestop {
+    button {
+        margin-left: 10%;
+    }
+}
+
+.iconos{
+    color: #ee2d25;
+    margin-right: 10px;
+    width: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.iconos:hover {
+    color: #ee2d2578;
+}
+  
+.insertproducto {
+    background: #fc5a8c !important;
+}

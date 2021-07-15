@@ -1,0 +1,55 @@
+.navbar {
+    padding: 10px;
+    margin-bottom: 15px;
+
+    .sidenav-button {
+        margin-right: 30px;
+    }
+
+    .sidenav-button i {
+        transform: scale(1.8);
+        margin-left: 10px;
+        cursor: pointer;
+        color: #ef302e;
+    }
+
+    .foto {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+
+    .foto img {
+        width: 100%;
+    }
+
+    .lcaja {
+        justify-content: flex-end;
+    }
+
+    .dropdown-menu {
+        background: linear-gradient(
+            0deg
+            , #ec250d 0 , #fd5d93 100%);
+    }
+
+    .dropdown-menu li {
+        cursor: pointer;
+    }
+
+    .dropdown-menu li a {
+        color: #ffffff;
+    }
+
+    .dropdown-menu li a:hover {
+        color: #ef302e;
+    }
+
+    .mat-badge-content {
+        background: green;
+        color: #ffffff;
+    }
+}

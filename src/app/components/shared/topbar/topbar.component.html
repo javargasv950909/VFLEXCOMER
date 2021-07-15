@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="sidenav-button"><i class="fas fa-bars" aria-hidden="true" (click)="inputSideNav.toggle()"></i></a>
+    <a class="navbar-brand">VFLEXCOMER</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse lcaja" id="navbarDropDown">
+        <h3 matBadge="on" matBadgeColor="warn" matBadgeOverlap="false">Administrador Conectado</h3>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropDownLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="foto">
+                        <img src="../../../../assets/images/user.png" alt="Profile Photo">
+                    </div>
+                    Julian Vargas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropDownLink">
+                    <li><a class="dropdown-item">Mi Perfil</a></li>
+                    <li><a class="dropdown-item">Cerrar Sesión</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
